@@ -1,13 +1,79 @@
 body {
   margin: 0;
+  background-image: url("shoppingback.jpg");
+  background-repeat: no-repeat;
+  background-size: 1700px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.btn-danger{
+  width:100px;
+  background-color:white;
+  margin: auto;
+  border:3px solid black;
+  text-align: center;
+  color:black;
+ 
+}
+.value{
+  /* background-color: rgb(4, 4, 95); */
+  border:3px solid black;
+  width:100px;
+  height:40px;
+  margin: auto;
+  text-align: center;
+  background-color:white ;
+  color:black;
+
+}
+.btn-quantity{
+  width:100px;
+  background-color:white;
+  color:black;
+  margin: auto;
+  border:3px solid black;
+  text-align: center;
+  font-weight: 500;
+}
+.btn-quantity:hover{
+  background-color: rgb(243, 69, 83);
+}
+.btn-footer{
+  background-color:rgb(82, 82, 235);
+}
+.form-control{
+  width:200px;
+
+}
+.form-label{
+  color:white;
+  font-weight: 700;
+}
+.displayItems{
+  color:rgb(12, 163, 233);
+  color:white;
+  font-weight: 700;
+  border:2px solid black;
+  /* width: 10px; */
+  background-color: grey;
+  margin:auto;
+}
+.displayPrice{
+  background-color: rgb(12, 163, 233);
+  color:black;
+}
+.btn-footer{
+  height:50px;
+}
+.btn-footer:hover{
+  background-color: rgb(243, 69, 83);
 }
